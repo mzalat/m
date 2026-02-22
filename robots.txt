@@ -1,0 +1,43 @@
+# robots.txt لموقع أصدقاء الصحراء - مظلات وسواتر الأحساء
+# الموقع: https://mzalat.github.io/m/
+
+# السماح لجميع محركات البحث بزيارة الموقع بالكامل
+User-agent: *
+Allow: /
+
+# تحديد موقع خريطة الموقع (Sitemap)
+Sitemap: https://mzalat.github.io/m/sitemap.xml
+
+# منع محركات البحث من فهرسة مجلدات معينة (إذا وجدت في المستقبل)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /backup/
+
+# تحديد مهلة الزيارة لمحركات البحث - احترام لموارد الاستضافة
+# (اختياري - يمكن إلغاء التعليق إذا أردت)
+# Crawl-delay: 5
+
+# توجيهات خاصة لمحركات بحث محددة (اختياري)
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 3
+
+# منع بعض الملفات غير المهمة من الفهرسة (اختياري)
+User-agent: *
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /*.json$
+Disallow: /*.xml$  # باستثناء sitemap.xml المعرف أعلاه

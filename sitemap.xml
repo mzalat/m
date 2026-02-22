@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://mzalat.github.io/m/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- صفحة البرجولات -->
+  <url>
+    <loc>https://mzalat.github.io/m/berjolat.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة تنسيق الحدائق -->
+  <url>
+    <loc>https://mzalat.github.io/m/hadayeq.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة بيوت الشعر -->
+  <url>
+    <loc>https://mzalat.github.io/m/khayam.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة السواتر -->
+  <url>
+    <loc>https://mzalat.github.io/m/sawater.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة مظلات لكسان -->
+  <url>
+    <loc>https://mzalat.github.io/m/mazlat-lksan.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة ساندوتش بانل -->
+  <url>
+    <loc>https://mzalat.github.io/m/sandwich-panel.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة مظلات سيارات -->
+  <url>
+    <loc>https://mzalat.github.io/m/mazlat-sayarat.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة الديكورات -->
+  <url>
+    <loc>https://mzalat.github.io/m/decor.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- صفحة القرميد -->
+  <url>
+    <loc>https://mzalat.github.io/m/qarmid.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة الهناجر -->
+  <url>
+    <loc>https://mzalat.github.io/m/hangar.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- صفحة المشبات -->
+  <url>
+    <loc>https://mzalat.github.io/m/mashabat.html</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

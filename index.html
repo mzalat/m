@@ -8,7 +8,7 @@
   <meta name="description" content="أفضل مظلات وسواتر في الأحساء - برجولات، حدائق، بيوت شعر، سواتر، مظلات لكسان، ساندوتش بانل، مظلات سيارات، ديكورات، قرميد، هناجر، مشبات.">
   <meta name="keywords" content="مظلات الأحساء, سواتر الأحساء, برجولات">
   <meta name="author" content="أصدقاء الصحراء">   
-    <meta name="google-site-verification" content="eUt0J9ACt9Ux0CUHo8nxgX-22VOMY7z_3Uf0AOJUQGA" />
+  <meta name="google-site-verification" content="eUt0J9ACt9Ux0CUHo8nxgX-22VOMY7z_3Uf0AOJUQGA" />
   <meta name="google-site-verification" content="Aqm8dbjdlkmD_GsxaHuXyYVRs-r3xeNJ6THUVm5fG10" />
   <meta property="og:image" content="https://i.postimg.cc/nV0SbHtL/Website-Logo-copy-423x418-1-copy-250x247.png">
   <meta property="og:image:width" content="250">
@@ -46,7 +46,7 @@
     /* البطل - مع أولوية تحميل */
     .hero{position:relative;min-height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:40px 20px;background-image:url('https://i.postimg.cc/PxmJctVH/5509302-tent1-350x350.jpg');background-size:cover;background-position:center;background-attachment:fixed}
     .hero::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,49,83,0.5);z-index:1} /* تراكب أزرق */
-    .hero-content{position:relative;z-index:2;max-width:800px;padding:0 15px}
+    .hero-content{position:relative;z-index:2;max-width:900px;padding:0 15px;width:100%}
     .hero-content h2{font-size:clamp(2rem,8vw,3.5rem);margin-bottom:15px;text-shadow:2px 2px 5px rgba(0,0,0,0.5);color:#ffd700} /* العنوان أصفر */
     .hero-content p{font-size:clamp(1rem,5vw,1.8rem);margin-bottom:25px;opacity:0.95;color:#f0f0f0}
     /* الحاوية العامة */
@@ -219,6 +219,45 @@
             width: 100%;
         }
     }
+    /* ===== قسم وسائل الدفع المنفصل (قبل الخدمات) ===== */
+    .payment-methods-section {
+        background: #fff;
+        border-radius: 30px;
+        padding: 30px 20px;
+        margin: 40px 0;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        text-align: center;
+        border: 2px solid #ffd700;
+    }
+    .payment-title {
+        font-size: 1.8rem;
+        color: #003153;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+    .payment-logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .payment-logo-img {
+        height: 50px;
+        width: auto;
+        background: white;
+        border-radius: 30px;
+        padding: 8px 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border: 1px solid #ffd700;
+        object-fit: contain;
+    }
+    @media (max-width: 768px) {
+        .payment-logo-img {
+            height: 40px;
+            padding: 5px 15px;
+        }
+    }
     /* آراء العملاء */
     .testimonials-grid{display:grid;grid-template-columns:1fr;gap:25px;margin-top:30px}
     @media(min-width:640px){.testimonials-grid{grid-template-columns:repeat(2,1fr)}}
@@ -285,6 +324,18 @@
       <p>مظلات وسواتر الأحساء - الجودة والتميز</p>
     </div>
   </section>
+
+  <!-- ===== قسم وسائل الدفع (يظهر قبل خدماتنا المتميزة) ===== -->
+  <div class="container">
+    <div class="payment-methods-section">
+      <h3 class="payment-title">وسائل الدفع المتاحة</h3>
+      <div class="payment-logos">
+        <img class="payment-logo-img" src="https://i.postimg.cc/wvNf9BMb/384578.jpg" alt="Tabby">
+        <img class="payment-logo-img" src="https://i.postimg.cc/jSChsjkw/image.jpg" alt="Tamara">
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <h2 class="section-title">خدماتنا المتميزة</h2>
     <div class="services-grid" id="services-grid"></div>
